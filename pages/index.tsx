@@ -90,7 +90,7 @@ const Home: NextPage<Props> = ({ propertiesForSale, propertiesForRent }) => {
 
       <Flex flexWrap="wrap" justifyContent="center">
         {propertiesForSale.hits.map((property) => (
-          <Property key={property.id} property={property} />
+          <Property key={property.id} property={property} />  
         ))}
       </Flex>
     </Box>

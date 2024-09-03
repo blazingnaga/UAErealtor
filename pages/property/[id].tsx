@@ -150,4 +150,4 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
       propertyDetails: data,
     },
   };
-};
+};  

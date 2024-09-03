@@ -88,7 +88,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
 
   return {
     props: {
-      properties: data,
+      properties: data,  
     },
   };
 };
