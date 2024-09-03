@@ -10,7 +10,7 @@ const Footer: NextPage = () => {
       borderTop="1px"
       borderColor="gray.100"
     >
-      {new Date().getFullYear()} Realtor, Inc.
+      {new Date().getFullYear()} Daud's Real Estate Haven Inc.
     </Box>
   );
 };
